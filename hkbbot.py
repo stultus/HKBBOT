@@ -94,6 +94,7 @@ while 1:
   repliedTo = []
   for statusObj in results:
       if statusObj.user.screen_name=="hkbbot":
+        print "naa.. its my tweet only"
         continue
       try:
          print "Trying to post this : RT @"+statusObj.user.screen_name+" "+statusObj.text.lower()
