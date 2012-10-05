@@ -96,8 +96,8 @@ while 1:
       if statusObj.user.screen_name=="hkbbot":
         continue
       try:
-         print "Trying to post this : RT @"+statusObj.user.screen_name+" "+statusObj.text.lower())
-         api.PostUpdates("RT @"+statusObj.user.screen_name+" "+statusObj.text.lower()) 
+         print "Trying to post this : RT @"+statusObj.user.screen_name+" "+statusObj.text.lower()
+         api.PostUpdates("RT @"+statusObj.user.screen_name+" "+statusObj.text.lower())
          print "I think I posted it successfully"       
          time.sleep(1)      
       except Exception:
