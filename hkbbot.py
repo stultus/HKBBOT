@@ -49,7 +49,7 @@ api = twitter.Api(consumer_key='CONSUMER KEY HERE',
 
 
 # the heart of this program --> provide the search querry below
-SEARCH ='#saveshriya'
+SEARCH ='#foo'
 
 
 
